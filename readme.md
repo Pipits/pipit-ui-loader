@@ -9,6 +9,10 @@ While Perch has a [built-in way](https://docs.grabaperch.com/api/custom-ui/) to 
 
 > This results in a "flicker" as the stylesheet is output after the body. While this may not be an issue for small CSS modifications, if you load even a moderate amount of CSS, traversing the admin quickly becomes distracting.
 
+This is also mentioned in Perch's [UI Customisations docs](https://docs.grabaperch.com/api/custom-ui/):
+
+> (We appreciate that the end of the page is not the most super-ideal place to be adding new CSS files. If making big changes where this could be an issue, it may be betting to look at implementing your code with an app instead.)
+
 
 ## Installation
 * Download the latest version of the app.
