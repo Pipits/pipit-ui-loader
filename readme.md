@@ -53,7 +53,7 @@ You can use `pipit_ui_config.php` as a template and modify it as you need.
 
 
 
-### 2. Add configuration file path
+### 2. Add the configuration file path
 
 Now you need to tell the app where to get your configuration file `pipit_ui_config.php` from. In your Perch config file `perch/config/config.php`:
 
@@ -63,3 +63,9 @@ define('PIPIT_UI_LOADER_FILEPATH', PERCH_PATH . '/addons/plugins/ui/pipit_ui_con
 ```
 
 So you are in control over what the `pipit_ui_config.php` is named and where it is placed.
+
+
+
+## Looking for admin themes?
+
+A number of developers have open-sourced their admin themes. They are listed in [Perchology Links](https://github.com/clivewalker/perchology-links#admin).
